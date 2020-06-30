@@ -16,6 +16,7 @@
 #include <cctype>
 #define FILENAME "07004_sol.cpp"
 using namespace std;
+
 //----------------------------------------------
 // Begin implementation
 //----------------------------------------------
@@ -132,6 +133,7 @@ int main(int argc, char* argv[]) {
         delete[] plainText;
         fileIn.close();
     }
+	cout<<"Motherfucker programming Fundamentals";
     catch (const char* errMsg){
         cerr << errMsg;
     }
